@@ -2,7 +2,7 @@ import './footer.css'
 
 const footer = () => {
   return (
-    <footer><h2>footer</h2></footer>
+    <section id="footer"><h2>Footer</h2></section> 
       
     
   )

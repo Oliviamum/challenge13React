@@ -2,7 +2,7 @@ import './floatingnav.css'
 
 const floatingnav = () => {
   return (
-    <section id="floatingnav"></section>
+    <section id="Floatingnav"><h2>floatingnav</h2></section>
 
          
   )

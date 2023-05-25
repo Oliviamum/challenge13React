@@ -1,18 +1,13 @@
 import Navbar from './sections/Navbar/Navbar';
 import Header from './sections/Header/header';
-import About from './sections/About';
-import portfolio from './sections/portfolio/portfolio';
+import About from './sections/About/About';
 import Designprojects from './sections/Designprojects/Designprojects';
-import Academic_teaching_projects from'./sections/Academic_teaching_projects/Academic_teaching_projects';
+import Academic_teaching_projects from'./sections/Academic_teaching/Academic_teaching';
 import Testimonials from './sections/Testimonials/Testimonials';
 import FAQs from './sections/FAQs/FAQs';
-import contact from './sections/contact/contact';
-import footer from './sections/footer/footer';
-import floatingnav from './sections/floatingnav/floatingnav';
-
-
-
-
+import Contact from './sections/contact/contact';
+import Footer from './sections/footer/footer';
+import Floatingnav from './sections/Floatingnav/floatingnav';
 
 
 const App = () => {
@@ -21,20 +16,23 @@ const App = () => {
       <Navbar/>
       <Header/>
       <About/>
-      <portfolio/>
       <Designprojects/>
-      <Academic-teaching-projects/>
+      <Academic_teaching_projects/>
       <Testimonials/>
       <FAQs/>
-      <contact/>
+      <Contact/>
        <Footer/>
       <Floatingnav/>
-     
- 
-
+      
+      
 
     </main>
   )
 }
+
+
+
+
+
 
 export default App
