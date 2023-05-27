@@ -100,7 +100,6 @@ h6{
   img{
     width: 100%;
     display: block;
-    object-fit: cover;
   }
   /* general section styles */
   button{
@@ -147,7 +146,6 @@ h6{
    
 
 
-}
 
 
   /* general section styles */
